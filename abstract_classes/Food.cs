@@ -13,6 +13,4 @@ public abstract class Food {
         _description = description;
         _cost = cost;
     }
-
-    //public abstract double calculateCost();
 }
