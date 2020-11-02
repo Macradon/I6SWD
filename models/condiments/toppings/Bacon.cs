@@ -2,7 +2,7 @@ public class Bacon : ToppingDecorator {
     //Reference to a Food object
     private Food additivefood {get;set;}
 
-    //Property impementations
+    //Property implementations
     public override string _description {
         get{
             return additivefood._description + ", Bacon";
