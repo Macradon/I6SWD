@@ -1,25 +1,24 @@
-public class Gorgonzola : Food {
-    //Reference to a Food object
-    private Food additivefood {get;set;}
+public class Gorgonzola : ToppingDecorator
+{
+    //Constructor
+    public Gorgonzola(Food food)
+    {
+        _additiveFood = food;
+    }
 
     //Property implementations
     public override string _description {
         get{
-            return additivefood._description + ", Gorgonzola";
+            return _additiveFood._description + ", Gorgonzola";
         }
         set{
         }
     }
     public override double _cost {
         get{
-            return additivefood._cost + 4.8;
+            return _additiveFood._cost + 5.00;
         }
         set{
         }
-    }
-
-    //Constructor
-    public Gorgonzola(Food food){
-        additivefood = food;
     }
 }

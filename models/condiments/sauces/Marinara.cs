@@ -1,25 +1,24 @@
-public class Marinara : Food {
-    //Reference to a Food object
-    private Food additivefood {get;set;}
+public class Marinara : ToppingDecorator
+{
+    //Constructor
+    public Marinara(Food food)
+    {
+        _additiveFood = food;
+    }
 
     //Property implementations
     public override string _description {
         get{
-            return additivefood._description + ", Marinara";
+            return _additiveFood._description + ", Marinara";
         }
         set{
         }
     }
     public override double _cost {
         get{
-            return additivefood._cost + 2.0;
+            return _additiveFood._cost + 5.00;
         }
         set{
         }
-    }
-
-    //Constructor
-    public Marinara(Food food){
-        additivefood = food;
     }
 }

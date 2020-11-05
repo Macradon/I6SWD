@@ -5,7 +5,7 @@ public class Pizza : Food {
 
     //Constructor
     public Pizza(){
-        _description = "A pizza is a bottom crusted dish with a sauce, cheeses, and other toppings.";
-        _cost = 10.3;
+        _description = "Pizza";
+        _cost = 65.00 ;
     }
 }

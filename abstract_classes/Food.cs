@@ -6,7 +6,7 @@ public abstract class Food {
     //Default constructor
     public Food() {
         _description = "Unspecified food.";
-        _cost = 0.0;
+        _cost = 0.00;
     }
 
     public Food(string description, float cost) {

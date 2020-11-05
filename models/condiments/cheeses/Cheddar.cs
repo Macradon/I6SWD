@@ -1,25 +1,24 @@
-public class Cheddar : Food {
-    //Reference to a Food object
-    private Food additivefood {get;set;}
+public class Cheddar : ToppingDecorator
+{
+    //Constructor
+    public Cheddar(Food food)
+    {
+        _additiveFood = food;
+    }
 
     //Property implementations
     public override string _description {
         get{
-            return additivefood._description + ", Cheddar";
+            return _additiveFood._description + ", Cheddar";
         }
         set{
         }
     }
     public override double _cost {
         get{
-            return additivefood._cost + 3.9;
+            return _additiveFood._cost + 5.00;
         }
         set{
         }
-    }
-
-    //Constructor
-    public Cheddar(Food food){
-        additivefood = food;
     }
 }

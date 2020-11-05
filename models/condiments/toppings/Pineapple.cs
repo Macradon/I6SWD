@@ -1,25 +1,24 @@
-public class Pineapple : ToppingDecorator {
-    //Reference to a Food object
-    private Food additivefood {get;set;}
+public class Pineapple : ToppingDecorator 
+{
+    //Constructor
+    public Pineapple(Food food)
+    {
+        _additiveFood = food;
+    }
 
     //Property implementations
     public override string _description {
         get{
-            return additivefood._description + ", Pineapple";
+            return _additiveFood._description + ", Pineapple";
         }
         set{
         }
     }
     public override double _cost {
         get{
-            return additivefood._cost + 3.5;
+            return _additiveFood._cost + 5.00;
         }
         set{
         }
-    }
-
-    //Constructor
-    public Pineapple(Food food) {
-        additivefood = food;
     }
 }

@@ -5,7 +5,7 @@ public class Calzone : Food {
 
     //Constructor
     public Calzone(){
-        _description = "A Calzon is a baked dough wrapped dish with sauce, cheese, and toppings.";
-        _cost = 8.7;
+        _description = "Calzone";
+        _cost = 55.00;
     }
 }

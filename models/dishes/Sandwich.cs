@@ -5,7 +5,7 @@ public class Sandwich : Food {
 
     //Constructor
     public Sandwich(){
-        _description = "A Calzon is top and bottom crusted dish with a spread and filling.";
-        _cost = 9.56;
+        _description = "Sandwich";
+        _cost = 60.00;
     }
 }
