@@ -1,30 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Programs\\Github\\Macradon\\I6SWD\\I6SWD.csproj": {}
+    "C:\\Users\\jeg\\Documents\\GitHub\\I6SWD\\I6SWD.csproj": {}
   },
   "projects": {
-    "D:\\Programs\\Github\\Macradon\\I6SWD\\I6SWD.csproj": {
+    "C:\\Users\\jeg\\Documents\\GitHub\\I6SWD\\I6SWD.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Programs\\Github\\Macradon\\I6SWD\\I6SWD.csproj",
+        "projectUniqueName": "C:\\Users\\jeg\\Documents\\GitHub\\I6SWD\\I6SWD.csproj",
         "projectName": "I6SWD",
-        "projectPath": "D:\\Programs\\Github\\Macradon\\I6SWD\\I6SWD.csproj",
-        "packagesPath": "C:\\Users\\Tri Nguyen\\.nuget\\packages\\",
-        "outputPath": "D:\\Programs\\Github\\Macradon\\I6SWD\\obj\\",
+        "projectPath": "C:\\Users\\jeg\\Documents\\GitHub\\I6SWD\\I6SWD.csproj",
+        "packagesPath": "C:\\Users\\jeg\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jeg\\Documents\\GitHub\\I6SWD\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Tri Nguyen\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\jeg\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -50,12 +45,30 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.0.1, 3.0.1]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[3.0.3, 3.0.3]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.0.0, 3.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[3.0.0, 3.0.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

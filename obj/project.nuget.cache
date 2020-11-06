@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "Q4yodZfPvQK+THYD2WyCQSx2xyp7eYdx5IKtz2HuX0MlFkG1ZaD6TY+i6HS/oZRklAWVmvss21+yCgdiALElIg==",
+  "dgSpecHash": "FVrLjgqBNYX+vXzQ9o+nC3hd1hcpkC933Pv9/Odoo+P8Vwm75nOtxyWOwYgAtoL07LSZ5hoJd7nAUdWMihC8nQ==",
   "success": true,
-  "projectFilePath": "D:\\Programs\\Github\\Macradon\\I6SWD\\I6SWD.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\jeg\\Documents\\GitHub\\I6SWD\\I6SWD.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jeg\\.nuget\\packages\\microsoft.netcore.app.ref\\3.0.0\\microsoft.netcore.app.ref.3.0.0.nupkg.sha512",
+    "C:\\Users\\jeg\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.0.0\\microsoft.windowsdesktop.app.ref.3.0.0.nupkg.sha512",
+    "C:\\Users\\jeg\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.0.1\\microsoft.aspnetcore.app.ref.3.0.1.nupkg.sha512",
+    "C:\\Users\\jeg\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.0.3\\microsoft.netcore.app.host.win-x64.3.0.3.nupkg.sha512"
+  ],
   "logs": []
 }
