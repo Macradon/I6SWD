@@ -1,5 +1,6 @@
 public class Mozzarella : ToppingDecorator 
 {
+    //Constructor
     public Mozzarella(Food food)
     {
         _additiveFood = food;
